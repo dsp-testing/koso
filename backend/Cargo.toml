@@ -32,7 +32,7 @@ listenfd = "1.0.2"
 metrics = { version = "0.24.2", default-features = false }
 metrics-exporter-prometheus = { version = "0.17.0", default-features = false }
 futures = "0.3.31"
-yrs = { version = "0.23.4", features = ["sync"] }
+yrs = { version = "0.24.0", features = ["sync"] }
 tokio-util = { version = "0.7.15", features = ["rt"] }
 jsonwebtoken = "9.3.1"
 reqwest = { version = "0.12.20", features = ["json"] }
@@ -42,12 +42,12 @@ rand = "0.9.1"
 tower = "0.5.2"
 similar = "2.7.0"
 chrono = { version = "0.4.41", features = ["serde"] }
-octocrab = "0.44.1"
+octocrab = "0.45.0"
 hmac = "0.12.1"
 hex = "0.4.3"
 sha2 = "0.10.9"
 async-trait = "0.1.88"
-teloxide = { version = "0.16.0", features = ["macros"] }
+teloxide = { version = "0.17.0", features = ["macros"] }
 config = { version = "0.15.11", default-features = false, features = ["json"] }
 regex = "1.11.1"
 serde_qs = "1.0.0-rc.3"
